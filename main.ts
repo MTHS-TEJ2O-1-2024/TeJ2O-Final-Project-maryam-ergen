@@ -12,10 +12,10 @@ radio.setGroup(131)
 radio.onReceivedNumber(function (receivedNumber) {
     basic.showIcon(IconNames.Heart)
     if (receivedNumber == 1) {
-    robotbit.StpCarMove(10, 48)
+    robotbit.StpCarMove(5, 48)
     }
     else  {
-        robotbit.StpCarMove(-10, 48)
+        robotbit.StpCarMove(-5, 48)
     }
 
     })
